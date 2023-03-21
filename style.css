@@ -57,6 +57,7 @@ ul{
 .hero.body{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
@@ -68,11 +69,9 @@ ul{
     max-width: 500px;
 }
 
-.hero.text{
-    flex-grow: 1;
-}
 .hero .text{
-    margin-right: 50px;
+    flex-grow: 1;
+    margin-right: 100px;
 }
 .hero.image{
     flex-grow: 1;
