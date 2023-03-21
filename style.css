@@ -213,3 +213,8 @@ ul{
     color: white;
     font-size: small;
 }
+
+li:hover{
+    background-color: gray;
+    font-style: oblique;
+}
