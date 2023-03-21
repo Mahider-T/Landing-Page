@@ -12,7 +12,7 @@
 
 }
 .container .hero{
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .container .middle{
@@ -38,10 +38,179 @@ ul{
 }
 
 .container .header .top-right{
-    gap:10px;
+    gap:15px;
 }
 
 .hero{
+
     background-color:#1F2937;
     color: #F9FAF8
+
+}
+.hero .big{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero.body{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.body .text{
+    max-width: 500px;
+}
+
+.hero.text{
+    flex-grow: 1;
+}
+.hero .text{
+    margin-right: 50px;
+}
+.hero.image{
+    flex-grow: 1;
+    
+}
+
+.text .signup{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px; 
+    margin-top: 10px;   
+}
+
+
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.middle .title{
+    flex-basis: 100%;
+}
+
+.middle .box{
+    border: 2px solid #3882F6;
+    height:100px;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.middle .box-container{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    gap: 80px;
+
+}
+.under-box{
+    max-width: 100px;
+}
+.box-container>*{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .box-container p{ */
+    /* align-self: center; */
+    /* justify-self: center; */
+/* } */
+
+.box-container p{
+    align-self: center;
+    text-align: center;
+}
+
+
+.middle .title{
+    text-align: center;
+    font: 100px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.bottom{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .parent{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+.parent .author{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.parent .discription{
+    font: 36px;
+    color: #1F2937;
+    font-style: italic;
+    
+}
+
+.low .popup{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    /* gap: auto; why is this not working? */
+    max-width: 800px;
+
+    
+}
+
+.low{
+    display: flex;
+    justify-content: center;
+}
+.popup .big{
+    font-size: small;
+    font-weight: bold;
+}
+.popup .small{
+    font-size: smaller;
+}
+
+.popup .signup{
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 50px;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
 }
